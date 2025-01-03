@@ -1,14 +1,14 @@
 # SR-FLIPFLOP-USING-CASE
 
-**AIM:**
+*AIM:*
 
 To implement  SR flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+*SOFTWARE REQUIRED:*
 
 Quartus prime
 
-**THEORY**
+*THEORY*
 
 SR Flip-Flop SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
@@ -32,17 +32,38 @@ By using three variable K-Map, we can get the simplified expression for next sta
  
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=S+R′Q(t)Q(t+1)=S+R′Q(t)
 
-**Procedure**
+*Procedure*
 
-/* write all the steps invloved */
+Step 1: Open Quartus II in your laptop.
+Step 2: Write code to implement SR flipflop using verilog and validating their functionality using their
+functional tables.
+Step 3: Run compilation to check for errors.
+Step 4: Open waveform output and load input values.
+Step 5: Run simulation to get the output.
+Step 6: Open in RTL viewers to get RTL diagram output.
 
-**PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+*PROGRAM*
+
+![Screenshot 2024-12-23 105726](https://github.com/user-attachments/assets/d6a7b8ab-7814-471c-8a64-1448472f1796)
+
+
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by: BLESSING S
+
+RegisterNumber: 24002843
 */
 
-**RTL LOGIC FOR FLIPFLOPS**
+*RTL LOGIC FOR FLIPFLOPS*
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+![Screenshot 2024-12-23 105223](https://github.com/user-attachments/assets/e083ffd7-06b0-4332-91b6-adf96b5b392c)
 
-**RESULTS**
+
+*TIMING DIGRAMS FOR FLIP FLOPS*
+
+![Screenshot 2024-12-23 105231](https://github.com/user-attachments/assets/bf9f6009-7068-42f3-b6cd-4d9f82fa1c90)
+
+
+*RESULTS*
+Thus, the SR Flip-Flop is designed, and its functionality is validated using the
+truth table and timing diagrams.
